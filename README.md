@@ -4,7 +4,7 @@ Uma calculadora simples e estilosa com um tema roxo único, desenvolvida com HTM
 
 ## 🎨 Visual
 
-![Screenshot da Calculadora](https://via.placeholder.com/800x400?text=Preview+da+Calculadora)  
+![Captura de tela 2025-01-27 012909](https://github.com/user-attachments/assets/35bfd33d-5619-4949-8fc4-9259e565fdb9)
 
 ## 🚀 Funcionalidades
 
@@ -25,5 +25,5 @@ Uma calculadora simples e estilosa com um tema roxo único, desenvolvida com HTM
 
 ## 💻 Como Usar
 
-Acesso o link --> 
+Acesso o link --> https://dutra1904.github.io/calculadora/
 
