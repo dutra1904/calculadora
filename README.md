@@ -3,8 +3,8 @@
 Uma calculadora simples e estilosa com um tema roxo único, desenvolvida com HTML, CSS e JavaScript. Essa aplicação suporta operações matemáticas básicas e é responsiva, funcionando bem em dispositivos móveis e desktops.
 
 ## 🎨 Visual
+
 ![Screenshot da Calculadora](https://via.placeholder.com/800x400?text=Preview+da+Calculadora)  
-*(Substitua pelo link de uma imagem da sua calculadora.)*
 
 ## 🚀 Funcionalidades
 
@@ -25,5 +25,5 @@ Uma calculadora simples e estilosa com um tema roxo único, desenvolvida com HTM
 
 ## 💻 Como Usar
 
-
+Acesso o link --> 
 
