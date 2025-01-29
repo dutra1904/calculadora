@@ -112,7 +112,6 @@ function power() {
   operation = "^"; // Definindo a operação como potência
 }
 
-// Realiza o cálculo com base na operação
 function calculate() {
   if (operation && previousValue !== null) {
     let result;
@@ -136,18 +135,21 @@ function calculate() {
         }
         break;
       case "^":
-        result = Math.pow(previousValue, current); // Calculando a potência
+        result = Math.pow(previousValue, current);
         break;
       default:
         return;
     }
 
-    // Limita o resultado a 8 dígitos e arredonda até 3 casas decimais
-    if (result === "ERR" || result.toString().length > 8) {
+    // Exibir o resultado completo, mantendo até 8 dígitos para o display
+    if (result === "ERR") {
       currentValue = "ERR";
       error = true;
     } else {
-      currentValue = result.toString().slice(0, 8);
+      currentValue = result.toString();
+      if (currentValue.length > 8) {
+        currentValue = parseFloat(result.toFixed(7)).toString(); // Arredondar até 7 casas decimais
+      }
     }
 
     previousValue = null;
@@ -155,3 +157,4 @@ function calculate() {
     updateDisplay();
   }
 }
+
